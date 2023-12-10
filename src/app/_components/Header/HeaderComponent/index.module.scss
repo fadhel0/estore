@@ -1,0 +1,19 @@
+.header {
+    padding: 32px 0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: calc(var(--base)/2) var(--base);
+}
+
+.logo {
+    width: 180px;
+}
+
+.hide {
+    display: none;
+}
